@@ -19,7 +19,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 
-class CropViewConfig {
+public class CropViewConfig {
 
     public static final float DEFAULT_VIEWPORT_RATIO = 0f;
     public static final float DEFAULT_MAXIMUM_SCALE = 10f;

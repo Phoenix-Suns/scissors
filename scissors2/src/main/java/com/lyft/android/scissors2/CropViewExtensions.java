@@ -22,7 +22,7 @@ import android.graphics.Rect;
 
 import static com.lyft.android.scissors2.CropView.Extensions.LoaderType;
 
-class CropViewExtensions {
+public class CropViewExtensions {
 
     static void pickUsing(Activity activity, int requestCode) {
         activity.startActivityForResult(

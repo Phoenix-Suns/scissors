@@ -24,7 +24,7 @@ import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
 import java.nio.charset.Charset;
 import java.security.MessageDigest;
 
-class GlideFillViewportTransformation extends BitmapTransformation {
+public class GlideFillViewportTransformation extends BitmapTransformation {
 
     private static final String ID = "com.lyft.android.scissors.GlideFillViewportTransformation";
     private static final byte[] ID_BYTES = ID.getBytes(Charset.defaultCharset());
